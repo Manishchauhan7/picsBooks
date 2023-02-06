@@ -1,0 +1,91 @@
+ 
+.Postitems{
+width: 100%;
+border-radius: 10px;
+margin: 30px 0;
+margin-top: 12px;
+-webkit-box-shadow: 6px 9px 27px -5px rgba(0,0,0,0.47);
+ box-shadow: 6px 9px 27px -5px rgba(0,0,0,0.47);
+font-size: 20px;
+}
+.PostWrapper{
+    padding: 10px;
+ }
+.PostTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ 
+.PostTopLeft{
+    display: flex;
+    align-items: center;
+ }
+.UserProfile{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.UserName{
+    font-weight: 600;
+   margin: 0 10px;
+}
+ .ActiveTime{
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+ }
+ .ImageToPost{
+    width: 100%;
+margin-top: 20px; 
+max-height: 500px;
+object-fit: contain;
+}
+ .PostBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .Thumb{
+     padding: 5px;
+    background-color: darkblue;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }  
+ .Heart{
+   margin-top: 20px;
+      margin-left: -8px;
+     padding: 5px;
+      border-radius: 50%;
+      background-color: lightcoral;
+      align-items: center;
+      cursor: pointer;
+ 
+ }
+ .LikeCount{
+   
+    /* align-items: center; */
+    margin-top: 10px;
+    margin-left:-65%;
+    justify-content: center;
+ }
+ .BottomText{
+    display: flex;
+    justify-content: space-between;
+  }
+  .Comments{
+    margin-left:5px;
+  }
+  @media (max-width:768px) {
+   .Postitems{
+      background-size: contain;
+   }
+   .ImageToPost{
+      width:60%;
+      object-fit: contain;
+   }
+  }

@@ -1,0 +1,142 @@
+/* .TopbarContainer
+{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(239, 243, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+ 
+}
+@media (max-width:768px) {
+    .TopbarContainer{
+        width: 100%;
+        z-index: 45;
+        background-color: chartreuse;
+        font-size: small;
+    }
+    
+}
+.Topbarleft{
+flex: 3;
+
+}
+.Topbarcenter
+{
+flex: 5;
+ 
+}
+.Topbarright{
+flex: 4;
+ 
+}
+.TopbarImage{
+    height: 32px;
+    width: 32px;
+}
+.Logo{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+    text-align: center;
+ }
+.Searchbar{
+width: 100%;
+border-radius: 15px;
+background-color:rgba(219, 231, 244, 0.9);
+height: 33px;
+text-align: center;
+display: flex;
+color: brown;
+}
+.Searchicon{
+    font-size: 28px !important;
+     margin-top: 4px;
+    align-items: center;
+    margin-left: 15px;
+ }
+.SearchContent{
+    border: none;
+    font-size: 22px;
+    width: 80%;
+    background: none;
+     text-align: center;  
+     margin-top: 3px; 
+    }
+ 
+.SearchContent:focus{
+    outline: none;
+}
+.Searchbar:hover{
+    background-color:rgba(234, 242, 251, 0.9);
+ }
+
+
+ .Topbarright{
+      display: flex;
+      flex: 4;
+     justify-content: space-around;
+    align-items: center;
+    color: blue;
+    }
+ .TopbarLinks{
+    font-size: 20px;
+    text-decoration: none;
+    
+ }
+ a{
+    text-decoration: none;
+ }
+     .Topbaricons{
+        margin-top: 5px;
+        display: flex;
+        position: relative;
+      }
+      .IconsItems{
+        margin-right: 15px;
+        cursor: pointer;
+        position: relative;
+        font-size: 26px !important;
+        }
+      .IconsBadge{
+        width: 20px;
+        height: 20px;
+        background-color: rgb(85, 43, 222);
+        border-radius: 50%;
+        color: aliceblue;
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        justify-content: center;
+        font-size: 14px;
+        align-items: center;
+       }
+       .TopbarImage{
+        border-radius: 50%;
+        cursor: pointer;
+        object-fit: cover;
+        width: 40px;
+        height: 40px;
+       }
+       @media (max-width:768px){
+        .Topbaricons{
+            width: 100%;
+            /* background-color: crimson; */
+            /* margin-left: -180px;
+            font-size: 20px !important;
+        }
+        .TopbarImage{
+            margin-left: -10px;
+        }
+         
+       }
+       @media (max-width:768px) {
+        .Topbarleft{
+            font-size: 8px;
+        }
+        
+       }
+        */ 

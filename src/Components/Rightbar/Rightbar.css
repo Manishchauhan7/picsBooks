@@ -1,0 +1,86 @@
+.UpperRight{
+    flex:2;
+    font-size: 25px;
+    height: 100vh;
+    scroll-behavior: smooth;
+    position: sticky;
+    overflow-y: scroll;
+    cursor: pointer;
+    
+   }
+ @media (max-width:768px) {
+  .UpperRight{
+    height: 100vh;
+    width: 100%;
+    float: right;
+    flex-direction: row;
+    flex: .05;
+    font-size: 15px;
+     position: sticky;
+    overflow-x: hidden;
+    }
+ }
+  .birthdayContainer{
+    display: flex;
+    align-items: center;
+  }
+  .rightbarWrapper{
+    padding: 20px 25px 0 0;
+   }
+  .birthdayImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .rightbarAd{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 10px;
+  }
+  .rightbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  @media (max-width:768px) {
+    .rightbarFriendList{
+      cursor: pointer;
+      justify-content: center;
+       align-items: center;
+        }
+       /* :hover{
+        color: rgb(159, 161, 163);
+       } */
+        
+    
+  }
+ .birthdaytext{
+  padding: 5px;
+  width: 100%;
+ border-radius: 5px;
+ align-items: center;
+ cursor: pointer;
+ justify-content: center;
+   
+  } 
+  .birthdaytext:hover{
+    background-color: rgba(186, 186, 186, 0.8);
+
+  }
+  .Title{
+    font-size: 25px;
+    color: rgb(26, 140, 239);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+     border-radius: 5px;
+     font-weight: 800;
+     width: 100%;
+  }
+  .Title:hover{
+    background-color: rgba(186, 186, 186, 0.8);
+ 
+  }
+   
+   
+ 

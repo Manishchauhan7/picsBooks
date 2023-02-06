@@ -1,0 +1,22 @@
+.Feedback{
+    flex: 3.5;
+    font-size: 25px;
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    overflow-x: hidden;
+  }
+  @media (max-width:768px) {
+    .Feedback{
+       width: 100%;
+      height:auto;
+       position: sticky;
+      overflow-y: scroll;
+       font-size: 20px;
+       flex-wrap: wrap;
+       flex: 3.5;
+       display: flex;
+       flex-grow: 8;
+         }
+  }
+ 
